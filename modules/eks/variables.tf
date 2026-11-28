@@ -33,13 +33,13 @@ variable "instance_types" {
 variable "desired_size" {
   description = "Desired number of worker nodes"
   type        = number
-  default     = 2
+  default     = 3
 }
 
 variable "min_size" {
   description = "Minimum number of worker nodes"
   type        = number
-  default     = 1
+  default     = 3
 }
 
 variable "max_size" {
